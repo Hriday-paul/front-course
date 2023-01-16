@@ -38,7 +38,7 @@ I am using icon hover iffect.
 ```
 If you see this whole website design, please my work in github.
 ```
-github repository link : https://github.com/Hriday-paul/Like-programming-hero-web.git
+My github profile link : https://github.com/Hriday-paul
 
 ---
 ## Thanks all.
