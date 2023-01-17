@@ -1,0 +1,40 @@
+nav{
+    box-shadow: 0px 2px 15px #d3d2d2;
+}
+nav div ul li{
+    margin-left: 10px;
+}
+nav div ul li a{
+    font-size: 16px;
+}
+.m-body{
+    min-height: 100vh;
+}
+.navbar{
+    box-shadow: none;
+}
+/* nav end */
+
+/* why-us start */
+
+.why-us .container .row .why-img{
+    margin-top: 25px;
+    margin-left: 15%;
+    
+}
+
+/* why-us end */
+
+/* skills start */
+
+.skill .container .row .skill-img{
+    margin-right: 15%;
+}
+
+/* skills end */
+
+/* service start */
+
+
+
+/* service end */

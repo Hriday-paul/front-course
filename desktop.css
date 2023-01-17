@@ -1,0 +1,67 @@
+nav div ul li{
+    margin-left: 25px;
+}
+nav div ul li a{
+    font-size: 18px;
+}
+.navbar{
+    box-shadow: none;
+}
+
+/* navba end */
+
+/* body start */
+
+.m-body{
+    min-height: 85vh;
+    width: 100%;
+    background-color: rgb(50, 75, 114);
+}
+.row .col-lg-6 .b-img{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    animation: img-anim;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes img-anim {
+    0%{
+       top: 0px;
+    }
+    50%{
+        top: 30px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+.b-item .font{
+    margin-top: 100px;
+    font-size: 50px;
+}
+
+/* body end */
+
+/* client start */
+
+.client .container .row img{
+    max-width: 45%;
+}
+
+/* client end */
+
+ /* about start */
+
+ .row .colum-2{
+    margin-top: 0px;
+}
+
+  /* about end */
+
+/* service start */
+
+
+
+/* service end */

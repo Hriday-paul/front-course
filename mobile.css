@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    box-shadow: none;
+}
+.m-body{
+    min-height: 92vh;
+    width: 100%;
+    background-color: rgb(50, 75, 114);
+}
+
+/* navbar end */
+
+/* body start */
+
+.row .col-lg-6 .b-img{
+    margin-top: 60px;
+}
+.row .col-lg-6 img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.text{
+    opacity: 0.6;
+}
+.font{
+    font-size: 31px;
+}
+.row .b-item .circle-btn{
+    position: relative;
+}
+.row .b-item .circle-btn i{
+    position: absolute;
+    top: 0px;
+}
+.row .b-item .circle-btn span{
+    position: relative;
+    top: 4px;
+}
+.fa-regular{
+    margin-right: 5px;
+    font-size: 28px;
+    margin-left: 15px
+}
+.fa-circle-play{
+    transition: 0.4s;
+}
+.b-item span{
+    font-size: 20px;
+}
+.fa-circle-play:hover.fa-circle-play{
+    color: #17a2b8;
+    cursor: pointer;
+}
+
+/* body end */
+
+/* client start */
+
+.client{
+    background-color: #f3f5fa;
+}
+.client .container .row img{
+    max-width: 30%;
+    transition: 0.4s;
+    filter: grayscale(100);
+}
+.client .container .row img:hover{
+    transform: scale(1.2);
+    filter: none;
+    cursor: pointer;
+}
+
+
+/* client end */
+
+ /* about start */
+
+.about .fa-solid{
+    font-size: 20px;
+    top: 4px;
+}
+.row .colum-2{
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.l-btn{
+    padding: 0.375rem 2.50rem;
+}
+
+  /* about end */
+
+  /* why us start */
+
+.why-us{
+    background-color: #f3f5fa;
+}
+.why-us .accordian .colapse1{
+    background-color: #fff; 
+    border-radius: 5px;
+}
+.why-us .accordian .colapse1 .acordian-text{
+    font-size: 18px;
+    cursor: pointer;
+}
+.why-us .container{
+    margin-top: 40px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.why-us .container .row .why-img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+.why-txt-clr{
+    color: #37517e;
+}
+
+  /* why us end */
+
+  /* skills start */
+
+.skill .container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.skill .container .row .skill-img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+}
+.skill .container .row h3{
+    font-size: 33px;
+    font-weight: bolder;
+}
+.skill .container .row p{
+    font-size: 17px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.skill .container .row .col-sm-12 .progress .progress-bar{
+   background-color: #4668a2;
+   font-weight: bolder;
+}
+
+  /* skills end */
+
+  /* service start */
+.service{
+    background-color:  #f3f5fa;
+}
+.service .container{
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+.service .container p{
+    font-size: 17px;
+}
+.service .container h1{
+    color: #37517e;
+    font-weight: bolder;
+}
+.service .container .row .card{
+    box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+    transition:0.4s ease-in-out;
+}
+.service .container .row .card:hover{
+    transform: translate(0px, -8px);
+}
+.service .container .row .card .card-body h5{
+    color: #37517e;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.service .container .row .card:hover.card .card-body h5{
+    color: #47b2e4;
+}
+.service .container .row .card .card-body .fa-solid, .fa-brands{
+    font-size: 28px;
+    color: #47b2e4;
+}
+
+
+  /* service end */
