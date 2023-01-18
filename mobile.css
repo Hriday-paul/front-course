@@ -189,3 +189,50 @@ nav{
 
 
   /* service end */
+
+
+/* contact start */
+
+
+.contact .container{
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.contact .container h1{
+    color: #37517e;
+    font-weight: bolder;
+}
+.contact .row .map, .contact-part{
+    background-color: #fff;
+    border-top: 3px solid #47b2e4;
+    border-bottom: 3px solid #47b2e4;
+    box-shadow: 0px 0 25px 0 rgb(0 0 0 / 10%);
+}
+.contact .row .map .first-icon i{
+    padding: 12px 14px;
+    background-color: #e7f5fb;
+    color: #47b2e4;
+    border-radius: 50%;
+    font-size: 22px;
+    transition: 0.5s;
+}
+  .contact .row .map .first-icon .fa-regular{
+    margin-left: 0;
+    padding: 12px;
+}
+  .contact .row .map .first-icon .content{
+    position: absolute;
+    top: -10px;
+    left: 0;
+    margin-left: 70px;
+}
+.contact .row .map .first-icon i:hover{
+    background-color: #47b2e4;
+    color: #fff;
+}
+textarea{
+    resize: none;
+}
+
+
+/* contact end */
