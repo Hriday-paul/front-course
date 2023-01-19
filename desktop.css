@@ -13,9 +13,11 @@ nav div ul li a{
 /* body start */
 
 .m-body{
-    min-height: 85vh;
-    width: 100%;
     background-color: rgb(50, 75, 114);
+}
+.m-body .row{
+    padding-bottom: 70px;
+    margin-bottom: 0;
 }
 .row .col-lg-6 .b-img{
     width: 100%;
@@ -60,15 +62,11 @@ nav div ul li a{
 
   /* about end */
 
-/* service start */
+/* subscribe start */
 
+.subscribe .input-group{
+    width: 40%;
+}
 
+/* subscribe end */
 
-/* service end */
-
-
-/* contact start */
-
-
-
-/* contact end */

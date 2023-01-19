@@ -7,8 +7,9 @@ nav div ul li{
 nav div ul li a{
     font-size: 16px;
 }
-.m-body{
-    min-height: 100vh;
+.m-body .row{
+    padding-bottom: 50px;
+    margin-bottom: 0;
 }
 .navbar{
     box-shadow: none;
@@ -33,9 +34,10 @@ nav div ul li a{
 
 /* skills end */
 
-/* contact start */
+/* subscribe start */
 
+.subscribe .input-group{
+    width: 60%;
+}
 
-
-
-/* contact end */
+/* subscribe end */
