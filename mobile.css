@@ -6,9 +6,25 @@
 nav{
     box-shadow: none;
 }
+.navbar .sign-btn{
+    margin-bottom: 12px;
+}
 .m-body{
     width: 100%;
     background-color: rgb(50, 75, 114);
+}
+
+.modal .modal-footer .btn{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.modal .modal-footer .fa-brands{
+    font-size: 18px;
+    color: black;
+    margin-right: 5px;
+}
+.modal .modal-footer .btn:hover.modal .modal-footer .fa-brands{
+    color: #fff;
 }
 
 /* navbar end */

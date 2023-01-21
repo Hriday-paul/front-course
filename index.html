@@ -25,32 +25,83 @@
 
     <div class="clearfix">
         <nav class="navbar bg-dark navbar-dark navbar-expand-lg">
-            <a class="navbar-brand text-light" href="#">হৃদয়ের নোট Book</a>
+            <a class="navbar-brand text-light" href="#">Amar web</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">হোম</a>
+                        <a class="nav-link active" href="#" id="home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">আমার সম্পর্কে</a>
+                        <a class="nav-link" href="#about">About me</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">আমাদের সেবা সমূহ </a>
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Our service</a>
                         <div class="dropdown-menu">
-                          <a href="#" class="dropdown-item">ওয়েব ডেভেলপমেন্ট</a>
-                          <a href="#" class="dropdown-item">ডাটা সাইন্স</a>
+                          <a href="#service" class="dropdown-item">Web development</a>
+                          <a href="#service" class="dropdown-item">App development</a>
+                          <a href="#service" class="dropdown-item">Data science</a>
                           <div class="dropdown-divider"></div>
-                          <a href="#" class="dropdown-item">মেশিন লার্নিং</a>
+                          <a href="#service" class="dropdown-item">Machine learning</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">যোগাযোগ</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary sign-btn" data-toggle="modal" data-target="#exampleModal">
+                            Sign In
+                        </button>
+                        
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h1 class="modal-title w-100 text-center text-info" id="exampleModalLabel">Sign Up</h1>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="container">
+                                        <div class="form-group mb-3">
+                                            <label class="form-label h6" for="name">Username</label>
+                                            <input class="form-control" type="text" id="name" placeholder="username" required>
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <label class="form-label h6" for="email">Email Addrerss</label>
+                                            <input class="form-control" type="email" id="email" placeholder="xyz@gmail.com" required>
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <label class="form-label h6" for="password">Password</label>
+                                            <input class="form-control" id="password" type="password" placeholder="strong password" required>
+                                        </div>
+                                        <div class="form-check d-inline mt-3">
+                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              Remember me
+                                            </label>
+                                        </div>
+                                        <a class="float-right text-secondary" href="#">Forgot password</a>
+                                        <button type="submit" class="btn btn-block btn-info mb-2 mt-5">Sign In</button>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <div class="text-center w-100">
+                                        <a class="btn btn-outline-primary mr-3" href="#"><i class="fa-brands fa-google"></i>Google</a>
+                                        <a class="btn btn-outline-primary" href="#"><i class="fa-brands fa-github"></i>Github</a>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
                     <form class="d-flex" role="search">
                         <div class="input-group">
-                        <input class="form-control" type="search" placeholder="কিছু খুজুন..." aria-label="Search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
                         <div class="input-group-prepend">
                             <button class="btn btn-info" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                         </div>
@@ -72,7 +123,7 @@
                             <img class="b-img" src="client/hero-img.png" alt="body-img">
                         </div>
                         <div class="b-item col-lg-6 order-lg-1 col-md-12 mt-3 text-light text-center text-lg-left">
-                            <h1 class="font font-weight-bolder">Better Solutions For Your Business</h1>
+                            <h1 class="font font-weight-bolder">Better Solutions For Our Business</h1>
                             <h3 class="h5 text-light text">We are team of talented designers making websites with Bootstrap</h3>
                                 <div class="mt-sm-4 mt-lg-5 text-sm-center text-lg-left">
                                     <button class="btn btn-lg btn-info">Get Started</button>
@@ -121,7 +172,7 @@
 
     <!-- about start -->
 
-    <div class="clearfix about">
+    <div class="clearfix about" id="about">
         <div class="container">
             <h1 class="text-center text-info mt-5">ABOUT US</h1><hr>
             <div class="row my-5">
@@ -227,7 +278,7 @@
     <!-- service start -->
 
     <div class="clearfix">
-        <div class="service">
+        <div class="service" id="service">
             <div class="container">
                 <h1 class="text-center mt-5">SERVICE</h1><hr>
                 <p class="text-center text-muted">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
@@ -281,7 +332,7 @@
 
 
   <div class="clearfix">
-    <div class="contact">
+    <div class="contact" id="contact">
         <div class="container">
             <h1 class="text-center mt-5">CONTACT</h1><hr>
             <p class="text-center text-muted mb-5">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
@@ -397,9 +448,9 @@
             <div class="col-sm-12 col-md-6 col-lg-3 mt-5">
                 <h4>Useful link</h4>
                 <ul class="footer-link">
-                    <li><a href="#"><i class="fa-solid fa-check pr-1"></i>Home</a></li>
-                    <li><a href="#"><i class="fa-solid fa-check pr-1"></i>About us</a></li>
-                    <li><a href="#"><i class="fa-solid fa-check pr-1"></i>Service</a></li>
+                    <li><a href="#home"><i class="fa-solid fa-check pr-1"></i>Home</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-check pr-1"></i>About us</a></li>
+                    <li><a href="#service"><i class="fa-solid fa-check pr-1"></i>Service</a></li>
                     <li><a href="#"><i class="fa-solid fa-check pr-1"></i>Terms of service</a></li>
                     <li><a href="#"><i class="fa-solid fa-check pr-1"></i>Privacy policy</a></li>
                 </ul>
@@ -407,21 +458,21 @@
             <div class="col-sm-12 col-md-6 col-lg-3 mt-5">
                 <h4>Our Service</h4>
                 <ul class="footer-link">
-                    <li><a href="#"><i class="fa-solid fa-check pr-1"></i>Web development</a></li>
-                    <li><a href="#"><i class="fa-solid fa-check pr-1"></i>App development</a></li>
-                    <li><a href="#"><i class="fa-solid fa-check pr-1"></i>Data science</a></li>
-                    <li><a href="#"><i class="fa-solid fa-check pr-1"></i>Machine learning</a></li>
+                    <li><a href="#service"><i class="fa-solid fa-check pr-1"></i>Web development</a></li>
+                    <li><a href="#service"><i class="fa-solid fa-check pr-1"></i>App development</a></li>
+                    <li><a href="#service"><i class="fa-solid fa-check pr-1"></i>Data science</a></li>
+                    <li><a href="#service"><i class="fa-solid fa-check pr-1"></i>Machine learning</a></li>
                 </ul>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-3 mt-5">
                 <h4>Our Social Network</h4>
                 <p class="text-muted">Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
                 <ul class="social-icon">
-                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
-                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://twitter.com/Hriday585393" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/hridaypaul585393" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/hridoy.paul.7965/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="http://www.telegram.com/Hridaypaul" target="_blank"><i class="fa-brands fa-telegram"></i></a></li>
+                    <li><a href="https://github.com/Hriday-paul" target="_blank"><i class="fa-brands fa-github"></i></a></li>
                 </ul>
             </div>
         </div>

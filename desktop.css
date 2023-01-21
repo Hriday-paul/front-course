@@ -1,11 +1,14 @@
 nav div ul li{
-    margin-left: 25px;
+    margin-left: 15px;
 }
 nav div ul li a{
     font-size: 18px;
 }
 .navbar{
     box-shadow: none;
+}
+.navbar .sign-btn{
+    margin-bottom: 0;
 }
 
 /* navba end */
